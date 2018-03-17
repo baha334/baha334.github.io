@@ -1,0 +1,391 @@
+html,body {
+margin:0;
+padding:0;
+background:url('../images/index_bg.png') repeat-x;
+}
+
+img {border:none;}
+
+select,input,textarea {outline:none;}
+
+.index_top {
+width:980px;
+background:url('../images/index_top.png') no-repeat;
+}
+
+.index_menu {
+padding-left:150px;
+}
+
+.index_menu a {
+display:block;
+height:29px;
+line-height:27px;
+float:left;
+font-family:arial;
+font-size:16px;
+color:#ffffff;
+text-decoration:none;
+padding-right:60px;
+margin-right:60px;
+background:url('../images/index_menu_a.png') top right no-repeat;
+}
+
+.index_menu a:hover {
+text-decoration:underline;
+}
+
+.index_vklady {
+height:55px;
+text-align:center;
+vertical-align:middle;
+font-family:arial;
+font-size:20px;
+font-weight:bold;
+color:#77AF1B;
+}
+
+.index_center {
+height:100px;
+}
+
+.index_referalu {
+height:85px;
+text-align:center;
+vertical-align:bottom;
+font-family:arial;
+font-size:20px;
+font-weight:bold;
+color:#339AD5;
+}
+
+
+
+
+.index_admin {
+font-family:arial;
+font-size:18px;
+color:#FFBA00;
+text-decoration:none;
+}
+
+.index_admin:hover {
+text-decoration:underline;
+}
+
+.index_ca font {
+font-family:arial;
+font-size:18px;
+color:#cccccc;
+}
+
+.index_stat_left {
+height:58px;
+width:200px;
+padding-left:60px;
+font-family:arial;
+font-size:19px;
+font-weight:bold;
+color:#25B6DA;
+}
+
+.index_stat_plus {
+display:block;
+height:58px;
+line-height:58px;
+float:left;
+font-family:arial;
+font-size:16px;
+font-weight:bold;
+color:#4084CE;
+padding-left:30px;
+padding-right:6px;
+background:url('../images/index_stat_plus.png') center left no-repeat;
+}
+
+.index_stat_with {
+display:block;
+height:58px;
+line-height:58px;
+float:left;
+font-family:arial;
+font-size:16px;
+font-weight:bold;
+color:#F8981D;
+padding-left:22px;
+padding-right:10px;
+background:url('../images/index_stat_with.png') center left no-repeat;
+}
+
+.index_stat_free {
+display:block;
+height:58px;
+line-height:58px;
+float:left;
+font-family:arial;
+font-size:16px;
+font-weight:bold;
+color:#77AF1B;
+padding-left:25px;
+background:url('../images/index_stat_free.png') center left no-repeat;
+}
+
+.osnova_left {
+width:250px;
+vertical-align:top;
+}
+
+.osnova_table {
+margin-top:5px;
+padding-left:5px;
+}
+
+.osnova_title {
+height:38px;
+line-height:33px;
+padding-left:15px;
+font-family:arial;
+font-size:19px;
+color:#ffffff;
+background:url('../images/osnova_title.png') no-repeat;
+}
+
+.osnova_vhod {
+padding-left:20px;
+padding-right:15px;
+padding-top:8px;
+background:url('../images/osnova_polosa.png') ;
+}
+
+.osnova_vhod_input_login {
+width:185px;
+height:30px;
+line-height:30px;
+border:none;
+padding-left:30px;
+font-family:arial;
+font-size:16px;
+font-weight:bold;
+color:#77AF1B;
+background:url('../images/osnova_vhod_input_login.png') no-repeat;
+}
+
+.osnova_vhod_input_qiwi {
+width:185px;
+height:30px;
+margin-top:10px;
+margin-bottom:15px;
+line-height:30px;
+border:none;
+padding-left:30px;
+font-family:arial;
+font-size:16px;
+font-weight:bold;
+color:#FF962D;
+background:url('../images/osnova_vhod_input_qiwi.png') no-repeat;
+}
+
+.osnova_vhod_registration {
+font-family:arial;
+font-size:18px;
+color:#77AF1B;
+font-weight:bold;
+text-decoration:underline;
+}
+
+.osnova_vhod_registration:hover {
+text-decoration:none;
+}
+
+.osnova_vhod_enter {
+display:block;
+width:71px;
+height:32px;
+margin-right:5px;
+line-height:34px;
+text-align:center;
+font-family:arial;
+font-size:17px;
+font-weight:bold;
+color:#333333;
+text-decoration:none;
+background:url('../images/osnova_vhod_enter.png') no-repeat;
+}
+
+.wrong_lq {
+padding-bottom:10px;
+text-align:center;
+font-family:arial;
+font-size:16px;
+color:#f00000;
+}
+
+.cabinet {
+padding-left:20px;
+padding-bottom:10px;
+background: url('../images/osnova_polosa.png');
+}
+
+.cabinet a {
+display:block;
+line-height:30px;
+padding-left:20px;
+font-family:arial;
+font-size:17px;
+color:#2969B1;
+text-decoration:none;
+background: url('../images/cabinet_bullet.png') no-repeat;
+}
+
+.cabinet a:hover {
+text-decoration:underline;
+}
+
+.osnova_obmen {
+width:230px;
+padding-left:20px;
+padding-top:8px;
+padding-bottom:10px;
+background:url('../images/osnova_polosa.png') ;
+}
+
+.osnova_obmen a {
+line-height:24px;
+font-family:arial;
+font-size:15px;
+font-weight:bold;
+color:#339AD5;
+text-decoration:none;
+}
+
+.osnova_obmen a:hover {
+text-decoration:underline;
+}
+
+.osnova_projects {
+padding-top:8px;
+text-align:center;
+background:url('../images/osnova_polosa.png') ;
+}
+
+.osnova_projects font {
+font-family:arial;
+font-size:15px;
+color:#333333;
+}
+
+.osnova_projects span {
+font-family:arial;
+font-size:15px;
+font-weight:bold;
+color:#339AD5;
+}
+
+.osnova_projects_bottom {
+height:10px;
+background:url('../images/osnova_projects_bottom.png') left bottom;
+}
+
+.osnova_online {
+width:250px;
+height:30px;
+line-height:33px;
+margin-bottom:5px;
+text-align:center;
+font-family:arial;
+font-size:16px;
+font-weight:bold;
+color:#3EAA30;
+background:url('../images/osnova_online.png') no-repeat;
+}
+
+
+.osnova_right {
+width:705px;
+padding-left:20px;
+vertical-align:top;
+}
+
+
+.footer {
+width:980px;
+height:150px;
+background:url('../images/footer.png') bottom no-repeat;
+}
+
+#menu{
+	width:100%;
+}
+
+#menu ul{
+	list-style:none;
+}
+
+#menu li{
+	list-style:none;
+	display:block;
+	float:left;
+}
+
+#menu li a{
+	display:block;
+	float:left;
+	height:66px;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:11px;
+	font-weight:bold;
+	background:url(/images/menu_left.jpg) no-repeat left;
+	line-height:43px;
+	padding:0 0 0 7px;
+	text-decoration:none;
+}
+
+#menu li a span{
+	display:block;
+	float:left;
+	background:url(/images/menu_right.jpg) no-repeat right;
+	height:66px;
+	color:#fff;
+	line-height:43px;
+	padding:0 14px 0 6px;
+}
+
+#menu li a:hover{
+	display:block;
+	float:left;					
+	background:url(/images/menu_left_h.jpg) no-repeat left;
+	height:66px;
+}
+
+#menu li a:hover span{
+	display:block;
+	float:left;					
+	background:url(/images/menu_right_h.jpg) no-repeat right;
+	color:#fff;
+	height:66px;
+}
+
+#menu li a.current{
+	display:block;
+	float:left;
+	height:66px;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:11px;
+	font-weight:bold;
+	background:url(/images/menu_left_h.jpg) no-repeat left;
+	line-height:43px;
+	padding:0 0 0 7px;
+	text-decoration:none;
+}
+
+#menu li a.current span{					
+	display:block;
+	float:left;
+	background:url(/images/menu_right_h.jpg) no-repeat right;
+	height:66px;
+	color:#fff;
+	line-height:43px;
+	padding:0 14px 0 6px;
+}
